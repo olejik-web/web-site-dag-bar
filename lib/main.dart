@@ -84,6 +84,9 @@ class MyCustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     required Key key
   }) : super(key: key);
 
+  // 360 - минимальная ширина
+  // 390 - ширина макета
+
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
